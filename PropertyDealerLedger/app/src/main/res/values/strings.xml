@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">PropertyDealerLedger</string>
+    <string name="title_seller">Seller</string>
+    <string name="title_buyer">Buyer</string>
+    <string name="title_diary">Diary</string>
+    <string name="title_client">Client</string>
+    <string name="title_setting">Setting</string>
+    //Splash Strings
+    <string name="property">PROPERTY</string>
+    <string name="dealer_ledger">Dealer Ledger</string>
+    <string name="splashtxt_three">it over 2000 years old</string>
+
+    //Login String
+    <string name="login_content">It is long establised the fact that the a reader will be distracted by the readable content of a page when looking at its layout.</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="login">Login</string>
+    <string name="st_continue">CONTINUE</string>
+    //Trail String
+    <string name="about_property">About Property dealer ledger</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="create_your_account_to_explore_it_is_a_long_established_fact_that_content_of_a_page_when_looking_at_its_layout">Create your account to explore It is a long established fact \nthat content of a page when looking at its layout!</string>
+    <string name="terms_of_use"><u>Terms of use</u></string>
+    <string name="policy_privacy"><u>Privacy policy</u></string>
+    <string name="entire_bromo_meeting_view_cabin_in_surabaya">Entire Bromo meeting view \nCabin in Surabaya</string>
+
+
+    <color name="dot_dark_screen1">#979797</color>
+    <color name="dot_dark_screen2">#979797</color>
+    <color name="dot_dark_screen3">#979797</color>
+
+    <color name="dot_light_screen1">#00567d</color>
+    <color name="dot_light_screen2">#00567d</color>
+    <color name="dot_light_screen3">#00567d</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+</resources>

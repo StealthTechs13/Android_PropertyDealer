@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+   >
+    <RelativeLayout
+        android:id="@+id/rlParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab_item_back"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+
+        >
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entire Bromo meeting view "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_header"
+        android:fontFamily="@font/sfpro_display_regular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cabin in Surabaya "
+        android:textStyle="bold"
+        android:textColor="@color/text_header"
+        android:textSize="18sp"
+        android:fontFamily="@font/sfpro_display_regular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friday 24 March, 2022 | 10:00PM "
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/sfpro_display_regular"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:id="@+id/ivMore"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/more"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profile"
+            android:visibility="gone"
+            app:civ_border_color="#FF000000"/>
+
+
+
+
+    </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

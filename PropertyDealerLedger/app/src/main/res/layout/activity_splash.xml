@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lytSplash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_back">
+
+    <LinearLayout
+        android:id="@+id/llView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/llView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgSplash"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/app_icon" />
+
+        <LinearLayout
+            android:id="@+id/llText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imgSplash"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/textProperty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/property"
+                android:textColor="@color/white"
+                android:fontFamily="@font/sfpro_display_regular"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/textDealer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEALAR LEDGER"
+                android:fontFamily="@font/sfpro_display_regular"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textTagline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:fontFamily="@font/sfpro_display_regular"
+        android:textColor="@color/splash_three_text"
+        android:text="@string/splashtxt_three"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

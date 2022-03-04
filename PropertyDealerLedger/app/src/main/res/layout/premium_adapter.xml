@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab_item_back"
+        android:layout_marginTop="10dp"
+        android:elevation="2dp"
+
+        android:padding="10dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monthly"
+                android:textSize="14sp"
+                android:textColor="@color/premimum_text_grey"
+                android:fontFamily="@font/sfpro_display_regular"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$1290"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_header"
+                    android:fontFamily="@font/sfpro_display_regular"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  /month"
+                    android:textSize="14sp"
+                    android:textColor="@color/premimum_text_grey"
+                    android:fontFamily="@font/sfpro_display_regular"/>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recurring monthly billing "
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/premimum_text_grey"
+                android:fontFamily="@font/sfpro_display_regular"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnVerifyOtp"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+
+                android:background="@drawable/btn_background"
+                android:text="Subscribe"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:fontFamily="@font/sfpro_display_regular"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/llytMobileno">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 7-days free trial "
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/premimum_text_grey"
+                android:fontFamily="@font/sfpro_display_regular"/>
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

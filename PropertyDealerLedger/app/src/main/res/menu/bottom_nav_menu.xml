@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_seller"
+
+       android:icon="@drawable/seller"
+        android:title="@string/title_seller" />
+
+    <item
+        android:id="@+id/navigation_buyer"
+        android:icon="@drawable/buyer"
+        android:title="@string/title_buyer" />
+
+    <item
+        android:id="@+id/navigation_diary"
+
+        android:icon="@drawable/diary"
+        android:title="@string/title_diary" />
+
+    <item
+        android:id="@+id/navigation_client"
+        android:icon="@drawable/heart"
+        android:title="@string/title_client" />
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/settings"
+        android:title="@string/title_setting" />
+
+
+
+</menu>
